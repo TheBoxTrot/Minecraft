@@ -1,0 +1,148 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						name = "materials_"
+						remaps = 
+						[
+							{
+								from = "bedrock.vmat"
+								to = "materials/bedrock.vmat"
+							},
+							{
+								from = "bookshelf.vmat"
+								to = "materials/bookshelf.vmat"
+							},
+							{
+								from = "brick.vmat"
+								to = "materials/brick.vmat"
+							},
+							{
+								from = "cactus_bottom.vmat"
+								to = "materials/cactus_bottom.vmat"
+							},
+							{
+								from = "cactus_side.vmat"
+								to = "materials/cactus_side.vmat"
+							},
+							{
+								from = "chest.vmat"
+								to = "materials/chest.vmat"
+							},
+							{
+								from = "chest_left.vmat"
+								to = "materials/chest_left.vmat"
+							},
+							{
+								from = "clay.vmat"
+								to = "materials/clay.vmat"
+							},
+							{
+								from = "cobblestone.vmat"
+								to = "materials/cobblestone.vmat"
+							},
+							{
+								from = "crops_8.vmat"
+								to = "materials/crops_8.vmat"
+							},
+							{
+								from = "dandelion.vmat"
+								to = "materials/dandelion.vmat"
+							},
+							{
+								from = "dirt_grass_side.vmat"
+								to = "materials/dirt_grass_side.vmat"
+							},
+							{
+								from = "dirt_grass_top-forest.vmat"
+								to = "materials/dirt_grass_top-forest.vmat"
+							},
+							{
+								from = "dirt_grass_top.vmat"
+								to = "materials/dirt_grass_top.vmat"
+							},
+							{
+								from = "door_iron_bottom.vmat"
+								to = "materials/door_iron_bottom.vmat"
+							},
+							{
+								from = "furnace_side.vmat"
+								to = "materials/furnace_side.vmat"
+							},
+							{
+								from = "glass.vmat"
+								to = "materials/glass.vmat"
+							},
+							{
+								from = "gravel.vmat"
+								to = "materials/gravel.vmat"
+							},
+							{
+								from = "water.vmat"
+								to = "materials/water.vmat"
+							},
+							{
+								from = "torch_flame.vmat"
+								to = "materials/torch_flame.vmat"
+							},
+							{
+								from = "torch.vmat"
+								to = "materials/torch.vmat"
+							},
+							{
+								from = "tall_grass.vmat"
+								to = "materials/tall_grass.vmat"
+							},
+							{
+								from = "sugarcane.vmat"
+								to = "materials/sugarcane.vmat"
+							},
+							{
+								from = "stone.vmat"
+								to = "materials/stone.vmat"
+							},
+							{
+								from = "spawner.vmat"
+								to = "materials/spawner.vmat"
+							},
+							{
+								from = "snow.vmat"
+								to = "materials/snow.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = "materials/"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "untitled.fbx"
+						import_scale = 0.5
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}
