@@ -2,12 +2,21 @@
 
 Layer0
 {
-	shader "vr_simple.vfx"
+	shader "complex.vfx"
+
+	//---- PBR ----
+	F_METALNESS_TEXTURE 1
+	F_SPECULAR 1
+
+	//---- Ambient Occlusion ----
+	g_flAmbientOcclusionDirectDiffuse "0.000"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "materials/default/default_color.tga"
+	TextureColor "pbr/minecraft/textures/block/iron_ore.png"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -20,10 +29,10 @@ Layer0
 	g_flDirectionalLightmapStrength "1.000"
 
 	//---- Metalness ----
-	g_flMetalness "0.000"
+	TextureMetalness "pbr/minecraft/textures/block/iron_ore_s.png"
 
 	//---- Normal ----
-	TextureNormal "materials/default/default_normal.tga"
+	TextureNormal "pbr/minecraft/textures/block/iron_block_n.png"
 
 	//---- Roughness ----
 	TextureRoughness "materials/default/default_rough.tga"
