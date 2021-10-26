@@ -2,12 +2,20 @@
 
 Layer0
 {
-	shader "vr_simple.vfx"
+	shader "complex.vfx"
+
+	//---- PBR ----
+	F_SPECULAR 1
+
+	//---- Ambient Occlusion ----
+	g_flAmbientOcclusionDirectDiffuse "0.000"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "materials/default/default_color.tga"
+	TextureColor "pbr/minecraft/textures/block/bricks.png"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -23,7 +31,7 @@ Layer0
 	g_flMetalness "0.000"
 
 	//---- Normal ----
-	TextureNormal "materials/default/default_normal.tga"
+	TextureNormal "pbr/minecraft/textures/block/bricks_n.png"
 
 	//---- Roughness ----
 	TextureRoughness "materials/default/default_rough.tga"
