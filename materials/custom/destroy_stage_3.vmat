@@ -2,30 +2,24 @@
 
 Layer0
 {
-	shader "complex.vfx"
+	shader "static_overlay.vfx"
 
-	//---- Translucent ----
-	F_ALPHA_TEST 1
+	//---- Blend Mode ----
+	F_BLEND_MODE 1 // Translucent
 
 	//---- Ambient Occlusion ----
-	g_flAmbientOcclusionDirectDiffuse "0.000"
-	g_flAmbientOcclusionDirectSpecular "0.000"
 	TextureAmbientOcclusion "materials/default/default_ao.tga"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "pbr/minecraft/textures/block/destroy_stage_0.png"
+	TextureColor "pbr/minecraft/textures/block/destroy_stage_3.png"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
-
-	//---- Lighting ----
-	g_flDirectionalLightmapMinZ "0.050"
-	g_flDirectionalLightmapStrength "1.000"
 
 	//---- Metalness ----
 	g_flMetalness "0.000"
@@ -44,7 +38,6 @@ Layer0
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
 
 	//---- Translucent ----
-	g_flAlphaTestReference "0.500"
-	g_flAntiAliasedEdgeStrength "1.000"
-	TextureTranslucency "pbr/minecraft/textures/block/trandestroy_stage_0.png"
+	g_flOpacityScale "1.000"
+	TextureTranslucency "pbr/minecraft/textures/block/trandestroy_stage_3.png"
 }
