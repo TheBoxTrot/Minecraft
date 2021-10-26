@@ -15,7 +15,7 @@ Layer0
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "pbr/minecraft/textures/block/flame.png"
+	TextureColor "pbr/minecraft/textures/block/acacia_log_top.png"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -46,5 +46,5 @@ Layer0
 	//---- Translucent ----
 	g_flAlphaTestReference "0.500"
 	g_flAntiAliasedEdgeStrength "1.000"
-	TextureTranslucency "pbr/minecraft/textures/block/flame.png"
+	TextureTranslucency "pbr/minecraft/textures/block/acacia_log_top.png"
 }
