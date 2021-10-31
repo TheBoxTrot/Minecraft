@@ -45,7 +45,7 @@ Layer0
 	g_flSelfIllumBrightness "0.000"
 	g_flSelfIllumScale "1.000"
 	g_vSelfIllumScrollSpeed "[0.000 0.000]"
-	g_vSelfIllumTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vSelfIllumTint "[1.000000 0.647059 0.000000 1.000000]"
 	TextureSelfIllumMask "pbr/minecraft/textures/block/torch_s.png"
 
 	//---- Texture Coordinates ----
