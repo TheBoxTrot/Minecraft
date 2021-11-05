@@ -71,7 +71,7 @@
 					{
 						_class = "PhysicsShapeBox"
 						parent_bone = ""
-						surface_prop = "rubber"
+						surface_prop = "tnt"
 						collision_prop = "default"
 						origin = [ -0.033013, 0.009823, 0.06175 ]
 						angles = [ 0.0, 0.0, 0.0 ]
