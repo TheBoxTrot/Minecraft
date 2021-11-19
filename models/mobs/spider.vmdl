@@ -1,0 +1,152 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = true
+						global_default_material = "materials/custom/spider.vmat"
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "flesh"
+						collision_prop = "default"
+						origin = [ 17.996521, 0.013124, 18.048611 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 24.021187, 20.027325, 16.105352 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "flesh"
+						collision_prop = "default"
+						origin = [ 0.004886, 0.013958, 17.998508 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 11.922353, 12.075713, 12.10837 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "flesh"
+						collision_prop = "default"
+						origin = [ -14.006313, -0.029771, 18.001455 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 16.016521, 16.073679, 16.01004 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "flesh"
+						collision_prop = "default"
+						origin = [ -8.514254, -20.419065, 14.981673 ]
+						angles = [ -12.178357, 63.174339, 2.372203 ]
+						dimensions = [ 31.891109, 4.210965, 4.480984 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "flesh"
+						collision_prop = "default"
+						origin = [ -2.133487, -22.25741, 15.068532 ]
+						angles = [ -14.336722, 79.326004, -1.08225 ]
+						dimensions = [ 31.891109, 4.210965, 4.480984 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "flesh"
+						collision_prop = "default"
+						origin = [ 5.587709, -22.370331, 14.463413 ]
+						angles = [ -21.593048, 101.721664, -6.492597 ]
+						dimensions = [ 31.891109, 4.210965, 4.480984 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "flesh"
+						collision_prop = "default"
+						origin = [ 10.804721, -21.592342, 15.03979 ]
+						angles = [ -18.988192, 118.378464, -1.389294 ]
+						dimensions = [ 31.891109, 4.210965, 4.480984 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "flesh"
+						collision_prop = "default"
+						origin = [ -7.050594, 21.748125, 16.426758 ]
+						angles = [ 10.43127, 117.684433, 5.927047 ]
+						dimensions = [ 31.891109, 4.210965, 4.480984 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "flesh"
+						collision_prop = "default"
+						origin = [ 0.636789, 22.615961, 16.595638 ]
+						angles = [ 5.352826, 92.732071, 1.018084 ]
+						dimensions = [ 31.891109, 4.210965, 4.480984 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "flesh"
+						collision_prop = "default"
+						origin = [ 6.469021, 21.921122, 15.72547 ]
+						angles = [ 11.661203, 71.995651, -0.945877 ]
+						dimensions = [ 31.891109, 4.210965, 4.480984 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "flesh"
+						collision_prop = "default"
+						origin = [ 13.749769, 18.247744, 16.117897 ]
+						angles = [ 9.955463, 44.623238, -6.175707 ]
+						dimensions = [ 31.891109, 4.210965, 4.480984 ]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/v.geo.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 32.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "physics_prop_model"
+		primary_associated_entity = "prop_physics"
+		anim_graph_name = ""
+	}
+}
