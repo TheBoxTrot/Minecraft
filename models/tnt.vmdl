@@ -71,8 +71,11 @@
 					{
 						_class = "PhysicsShapeBox"
 						parent_bone = ""
-						surface_prop = "tnt"
-						collision_prop = "default"
+						surface_prop = "wood.sheet"
+						collision_group = ""
+						collision_interact_as = ""
+						collision_interact_with = ""
+						collision_interact_exclude = ""
 						origin = [ -0.033013, 0.009823, 0.06175 ]
 						angles = [ 0.0, 0.0, 0.0 ]
 						dimensions = [ 32.067566, 32.125755, 32.068428 ]
