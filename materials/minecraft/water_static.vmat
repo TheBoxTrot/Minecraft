@@ -18,7 +18,7 @@ Layer0
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[0.203922 0.462745 0.976471 0.000000]"
-	TextureColor "pbr/minecraft/textures/AvudL0Q_8x.png"
+	TextureColor "materials/water_still.png"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -42,9 +42,9 @@ Layer0
 	//---- Texture Animation ----
 	g_flAnimationFrame "0.000"
 	g_flAnimationTimeOffset "0.000"
-	g_flAnimationTimePerFrame "0.881"
-	g_nNumAnimationCells "33"
-	g_vAnimationGrid "[1 7]"
+	g_flAnimationTimePerFrame "0.158"
+	g_nNumAnimationCells "32"
+	g_vAnimationGrid "[1 32]"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"

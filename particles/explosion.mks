@@ -1,0 +1,18 @@
+sequence 0
+loop
+frame explosion/explosion_0.png 1
+frame explosion/explosion_1.png 1
+frame explosion/explosion_2.png 1
+frame explosion/explosion_3.png 1
+frame explosion/explosion_4.png 1
+frame explosion/explosion_5.png 1
+frame explosion/explosion_6.png 1
+frame explosion/explosion_7.png 1
+frame explosion/explosion_8.png 1
+frame explosion/explosion_9.png 1
+frame explosion/explosion_10.png 1
+frame explosion/explosion_11.png 1
+frame explosion/explosion_12.png 1
+frame explosion/explosion_13.png 1
+frame explosion/explosion_14.png 1
+frame explosion/explosion_15.png 1

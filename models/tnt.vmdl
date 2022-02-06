@@ -42,7 +42,7 @@
 							explosive_force = 5.0
 							explosion_delay = -1.0
 							explosion_buildup = ""
-							explosion_custom_effect = resource:"particles/explosion_fireball.vpcf"
+							explosion_custom_effect = resource:"particles/explosion.vpcf"
 							explosion_custom_sound = "rust_pumpshotgun.shootdouble"
 						}
 					},
